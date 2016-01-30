@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock paper and scissors</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous"/>
+  <style type="text/css" media="all">
+   body {
+	 background:#ffeead;
+	 color: #000;
+	 font-family: 'Open Sans', sans-serif;
+	 margin: 0;
+	 padding: 0;
+   }
+   .container {
+	width: 732px;
+	height: 346px;
+	margin: 0 auto 48px;
+	position: relative;
+}
+   img {
+	height: 346px;
+	width: 208px;
+	cursor: pointer;
+}
+.Ychoice,.Cchoice{
+  display: none;
+}
+.r, .p, .s, .p1, .s1, .s2, .r2, .p3, .r3, .rw, .pw, .sw, .tie{
+  display:none;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="container" align="center">
+    <h1>Rock paper and scissors</h1>
+    <div class="row">
+      <div class="col-md-4"><i class="fa fa-hand-scissors-4x"></i><img class="r" src="rock.png"><img class="p1" src="paper.png"><img class="s1" src="scissors.png"></img>
+        <h1 class="Ychoice"><i class="fa fa-hand-scissors-4x"></i>Your Choice</h1>
+
+      </div>
+      <div class="col-md-4"><i class="fa fa-hand-scissors-4x"></i><img class="p" src="paper.png"><img class="r2" src="rock.png"></img>
+        <h1 class="rw">Rock Wins!</h1>
+        <h1 class="pw">Paper Wins!</h1>
+        <h1 class="sw">Scissors Wins!</h1>
+        <h1 class="tie">It's a tie!</h1>
+
+
+      </div>
+      <div class="col-md-4"><img class="s" src="scissors.png"><img class="r3" src="rock.png"><img class="p3" src="paper.png"></img>
+        <h1 class="Cchoice">Computer Choice</h1>
+
+      </div>
+    </div>
+  </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
