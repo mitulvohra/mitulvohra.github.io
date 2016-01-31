@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=Cardo);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.page-content
+{ background:url("uLrWbwC.jpg");
+
+
+}
+
+.mdl-card{
+ width:100%;
+}
+
+.demo-card-wide.mdl-card {
+    width: 100%;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 300px;
+    background: url('143612256082163.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+
+  .demo-card-wide > .mdl-card__supporting-text h1
+  {
+    font-family: 'Josefin Slab', serif;
+    font-size:60px;
+	font-style:underline;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px;
+
+
+  }
+
+  .demo-card-wide > .mdl-card__supporting-text p
+  {
+    font-family: 'Josefin Slab', serif;
+    font-size:28px;
+  }
+
+  .moreInfo-card-wide
+  {
+    background-color: #ff3232;
+    width:100%;
+  }
+  
+  .moreInfo-card-wide h2 
+  {
+    font-family: 'Josefin Slab', serif;
+	font-size:50px;
+	font-weight:bold;
+	color:white;
+	text-shadow: 2px 2px black;
+    
+  }
+  
+    .moreInfo-card-wide p
+	{
+     font-family: 'Open Sans', sans-serif;
+	 font-size:18px;
+	 margin:10px;
+	 
+	 color:white;
+
+	
+	}
+	
+	  .moreInfo-card-wide h3 
+	 { 
+	  font-family: 'Josefin Slab', serif;
+	  font-size: 40px;
+	  font-weight:bold;
+	color:white;
+	text-shadow: 2px 2px black;
+	 }
+	 
+	 .moreInfo-card-wide table
+	 { font-family: 'Josefin Slab', serif;
+	  font-size: 20px;
+	  font-weight:bold;
+	color:white;
+	text-shadow: 2px 2px black;
+	 
+	 }
+	 
